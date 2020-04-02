@@ -1,0 +1,39 @@
+.About, .Para {
+    text-align: center;
+    margin: 0;
+}
+
+.About {
+    animation-name: header;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.Para {
+    animation-name: about;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {
+        margin-left: -2000px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes about {
+    0% {
+        margin-top: 2000px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+
+
